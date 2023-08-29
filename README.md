@@ -1,25 +1,21 @@
-# Tumor Classification 🏥
+# Binary Tumor Classification Model with TensorFlow, Streamlit and Convolutional Neural Network 🏥
 
-<img src="img.jpg" width="800"/>
+<img src="./imgs/img1.png" width="800"/>
 
-## Binary Malignant - Benign Tumor Classification"
+## Multi - Classification Model with TensorFlow and CNN
 
-The Model predicts if a Tumor image is Malignant or Benign
-
-It was trained using Transfer Learning, with the VGG-16 Model. The last output layer was removed and then updated with a output layer of three neurons, with a `softmax` activation function. 
-
-The Model was retrained with 1000 images from each class.
+The Binary Model predicts if a given Tumor Image is either Malignant or Benign. The Model uses the CNN Architecture, built with TensorFlow.
 
 ## Check-it out
-Test the Model by yourself running the `main.py` file, built with `Streamlit`.
-
-Remember first to run the model `jupyter notebook` file and save it.
-
-<img src="preview.jpg" width="800"/>
+Test it by running the `app.py` file, built with `Streamlit`. Remember first to Train the Model using the Tumor Images Dataset.
 
 ## Run
 ```sh
 streamlit run app.py
 ```
 
+<img src="./imgs/img2.png" width="800"/>
+
+## Resources
+Tumors Dataset: https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images
 
